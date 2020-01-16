@@ -1,0 +1,50 @@
+---------------------------------------------------------------------------------------------------------------
+|
+| WTF es MVC
+|    Modelo, Vista, Controlador
+|
+|            Un patrón de diseño que nos permite estructurar un determinado proyecto
+|            para mayot organización
+|
+|                    Modelo -> Hace referencia a la plantilla del back co relación a nuestra
+|                    estructura de datos de nuestra Base de datos.
+|
+|                    Vista -> Se encara de manejar todas las interfases graficas que vera nuestro
+|                    usuario
+|
+|                    Controlador -> Es el puente entre la base de datos y la vista (rutas, funciones, querys)
+|                    El usuario desde la vista (formulario) envia los datos.
+|
+|                    Estos datos llgan primero al controlador, el controlador verifica con el modelo que los 
+|                    datos enviados por el usuario coincidan con la estructura de la tabla en nuestro base de 
+|                    datos. Si no es correcto, se envian los datos a guardarse en la base de datos,
+|                    si no, el controlador devuevle a la vista el mensaje de error.
+|
+|----------------------------------------------------------------------------------------------------------------------
+
+WTF es POO -> Programacion orientada a objetos
+    Reflejo de codificacion de objetos o sucesos de la vida cotididana.
+        Ideal para el modelado de datos y procesos.
+        POO tiene clases, metodos y parametros (atributos).
+            donde un objeto es una clase -> persona
+            parametros (atributos) -> las caracteristicas de esa persona
+            metodos -> las acciones de esa persona
+
+
+            class persona{
+                public $nombre; // variables publicas
+                public $apellido; // siemrpe con punto y coma (usar signo dolar al inicio)
+
+                public function_constructor($nombre, $apellido){
+                    // El constructor es el inicializador de las caracteristicas (atributos)
+                    // de la clase
+                    $this->nombre = $nombre;
+                    $this->apellido = $apellido;
+                }
+
+                // un metodo ees una funcion que solo puede hacer el objeto o clase
+
+                public function saludar(){
+                    echo "Hola, soy" . $this->nombre;
+                }
+            }
