@@ -33,9 +33,5 @@
 
     tablas();
 
-    if($variable % 2 == 0)
-   echo "$variable es múltiplo de 2";
-    else
-   echo "$variable no es múltiplo de 2"; 
 
 ?>

@@ -1,0 +1,49 @@
+COMANDO DE GIT
+
+Inicializar el repositorio en nuestro pc
+
+git init
+-----------------------------------------------------------------------------
+
+configuramos los permisos de usuario (credenciales) de nuestro repositorio
+
+Iniciar con usuario de github
+
+$ git config --global user.name "mrdeathc"
+
+-----------------------------------------------------------------------------
+
+configuramos los permisos de usuario (credenciales) de nuestro repositorio
+
+$ git config --global user.email "charlsmakotojojojo@gmail.com"
+
+------------------------------------------------------------------------------
+
+Añadimos documentos/carpetas a nuestro supositorio local      
+
+git add .
+
+-------------------------------------------------------------------------------
+
+$ git status
+
+-------------------------------------------------------------------------------
+
+$ git commit -m "Añadimos todo lo visto en clase desde el martes"
+
+-------------------------------------------------------------------------------
+
+$ git remote add origin https://github.com/Mrdeathc/phpBictia.git
+
+-------------------------------------------------------------------------------
+
+$ git push -u origin master
+
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
