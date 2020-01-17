@@ -5,7 +5,7 @@
     $videojuego=$_GET['videojuego'];
     //crear una variable que contendra la sentencia SQL para guardar
     //los datos en la tabla de la DB
-    $sql="UPDATE videojuegos SET nombre='$videojuego[nombre]' WHERE id='$videojuego[id]'";
+    $sql="INSERT INTO videojuegos (nombre) VALUES ('$videojuego')";
     //El metodo mysqli_query envía los datos
     //Necesita la conexion y sentencia SQL
     mysqli_query($conexion, $sql);

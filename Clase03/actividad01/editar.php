@@ -19,7 +19,7 @@
 </head>
 <body>
     <h1>Editar "<?php echo $videojuego[0][1]; ?>"</h1>
-    <form action="cambiar.php" method="GET">
+    <form action="modificar.php" method="GET">
         <input type="text" name="videojuego[id]" value="<?php echo $videojuego[0][0]; ?>" style="display:none">
         <input type="text" name="videojuego[nombre]" value="<?php echo $videojuego[0][1]; ?>">
         <button type="submit">Guardar</button>    
